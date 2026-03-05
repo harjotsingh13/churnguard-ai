@@ -1,0 +1,76 @@
+{
+  "n_clusters": 4,
+  "segments": [
+    {
+      "segment_id": 0,
+      "customer_count": 1224,
+      "pct_of_total": 18.6,
+      "avg_tenure": 41.1,
+      "avg_monthly_charge": 23.49,
+      "avg_total_revenue": 1973.86,
+      "avg_services": 1.3,
+      "churn_rate": 1.6,
+      "dominant_contract": "Two Year",
+      "total_revenue_at_risk": 29302.13,
+      "name": "At-Risk Mid-Tier",
+      "description": "Medium-tenure customers showing signs of disengagement with moderate spending",
+      "retention_strategy": "Proactive outreach with personalized bundles and satisfaction surveys"
+    },
+    {
+      "segment_id": 1,
+      "customer_count": 1646,
+      "pct_of_total": 25.0,
+      "avg_tenure": 36.9,
+      "avg_monthly_charge": 80.08,
+      "avg_total_revenue": 3710.53,
+      "avg_services": 5.3,
+      "churn_rate": 27.0,
+      "dominant_contract": "Month-to-Month",
+      "total_revenue_at_risk": 1676850.85,
+      "name": "Loyal Premium",
+      "description": "Long-tenure, high-spending customers with stable contracts and multiple services",
+      "retention_strategy": "Provide VIP perks, priority support, and exclusive early-access offers to maintain loyalty"
+    },
+    {
+      "segment_id": 2,
+      "customer_count": 2253,
+      "pct_of_total": 34.2,
+      "avg_tenure": 10.0,
+      "avg_monthly_charge": 58.96,
+      "avg_total_revenue": 774.41,
+      "avg_services": 3.2,
+      "churn_rate": 55.6,
+      "dominant_contract": "Month-to-Month",
+      "total_revenue_at_risk": 751326.0,
+      "name": "New Price-Sensitive",
+      "description": "Short-tenure customers with lower spending, often on month-to-month contracts",
+      "retention_strategy": "Offer loyalty discounts and contract upgrade incentives to build commitment early"
+    },
+    {
+      "segment_id": 3,
+      "customer_count": 1466,
+      "pct_of_total": 22.2,
+      "avg_tenure": 63.9,
+      "avg_monthly_charge": 92.15,
+      "avg_total_revenue": 7536.54,
+      "avg_services": 7.0,
+      "churn_rate": 10.5,
+      "dominant_contract": "Two Year",
+      "total_revenue_at_risk": 1226980.84,
+      "name": "Digital Streamers",
+      "description": "Customers with high data usage and streaming services, tech-savvy profile",
+      "retention_strategy": "Enhance digital experience, offer streaming partnerships and data boost packages"
+    }
+  ],
+  "cluster_features": [
+    "Tenure in Months",
+    "Monthly Charge",
+    "Total Revenue",
+    "Total Charges",
+    "Number of Referrals",
+    "Avg Monthly GB Download",
+    "num_services",
+    "contract_num"
+  ],
+  "total_customers": 6589
+}

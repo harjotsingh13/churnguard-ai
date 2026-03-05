@@ -1,0 +1,150 @@
+{
+  "overview": {
+    "total_customers": 6589,
+    "churned_customers": 1869,
+    "churn_rate": 28.4,
+    "avg_monthly_charge": 65.03,
+    "avg_tenure_months": 34.5,
+    "total_revenue": 21316851.94,
+    "avg_clv": 3235.22,
+    "revenue_at_risk": 3684459.82
+  },
+  "churn_by_contract": [
+    {
+      "category": "One Year",
+      "total": 1526,
+      "churned": 166,
+      "churn_rate": 10.9
+    },
+    {
+      "category": "Two Year",
+      "total": 1861,
+      "churned": 48,
+      "churn_rate": 2.6
+    }
+  ],
+  "churn_by_internet": [
+    {
+      "category": "Fiber Optic",
+      "total": 2934,
+      "churned": 1236,
+      "churn_rate": 42.1
+    },
+    {
+      "category": "Cable",
+      "total": 774,
+      "churned": 213,
+      "churn_rate": 27.5
+    },
+    {
+      "category": "DSL",
+      "total": 1537,
+      "churned": 307,
+      "churn_rate": 20.0
+    }
+  ],
+  "churn_by_payment": [
+    {
+      "category": "Mailed Check",
+      "total": 343,
+      "churned": 142,
+      "churn_rate": 41.4
+    },
+    {
+      "category": "Bank Withdrawal",
+      "total": 3728,
+      "churned": 1329,
+      "churn_rate": 35.6
+    },
+    {
+      "category": "Credit Card",
+      "total": 2518,
+      "churned": 398,
+      "churn_rate": 15.8
+    }
+  ],
+  "churn_by_tenure": [
+    {
+      "category": "0-6 mo",
+      "total": 1016,
+      "churned": 784,
+      "churn_rate": 77.2
+    },
+    {
+      "category": "7-12 mo",
+      "total": 716,
+      "churned": 253,
+      "churn_rate": 35.3
+    },
+    {
+      "category": "13-24 mo",
+      "total": 1024,
+      "churned": 294,
+      "churn_rate": 28.7
+    },
+    {
+      "category": "25-48 mo",
+      "total": 1594,
+      "churned": 325,
+      "churn_rate": 20.4
+    },
+    {
+      "category": "49+ mo",
+      "total": 2239,
+      "churned": 213,
+      "churn_rate": 9.5
+    }
+  ],
+  "top_churn_reasons": [
+    {
+      "reason": "Competitor had better devices",
+      "count": 313,
+      "percentage": 16.7
+    },
+    {
+      "reason": "Competitor made better offer",
+      "count": 311,
+      "percentage": 16.6
+    },
+    {
+      "reason": "Attitude of support person",
+      "count": 220,
+      "percentage": 11.8
+    },
+    {
+      "reason": "Don't know",
+      "count": 130,
+      "percentage": 7.0
+    },
+    {
+      "reason": "Competitor offered more data",
+      "count": 117,
+      "percentage": 6.3
+    },
+    {
+      "reason": "Competitor offered higher download speeds",
+      "count": 100,
+      "percentage": 5.4
+    },
+    {
+      "reason": "Attitude of service provider",
+      "count": 94,
+      "percentage": 5.0
+    },
+    {
+      "reason": "Price too high",
+      "count": 78,
+      "percentage": 4.2
+    },
+    {
+      "reason": "Product dissatisfaction",
+      "count": 77,
+      "percentage": 4.1
+    },
+    {
+      "reason": "Network reliability",
+      "count": 72,
+      "percentage": 3.9
+    }
+  ]
+}
