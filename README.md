@@ -102,7 +102,7 @@ telecom_saas/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/churnguard-ai.git
+git clone https://github.com/harjotsingh13/churnguard-ai.git
 cd churnguard-ai/telecom_saas
 
 # Create virtual environment
