@@ -36,11 +36,49 @@
           1255
         ]
       ],
+      "is_best": false
+    },
+    "XGBoost": {
+      "accuracy": 0.8698,
+      "precision": 0.81,
+      "recall": 0.7079,
+      "f1": 0.755,
+      "roc_auc": 0.9297,
+      "std_roc_auc": 0.0053,
+      "confusion_matrix": [
+        [
+          4408,
+          312
+        ],
+        [
+          546,
+          1323
+        ]
+      ],
       "is_best": true
+    },
+    "LightGBM": {
+      "accuracy": 0.8698,
+      "precision": 0.804,
+      "recall": 0.7159,
+      "f1": 0.757,
+      "roc_auc": 0.9291,
+      "std_roc_auc": 0.0049,
+      "confusion_matrix": [
+        [
+          4393,
+          327
+        ],
+        [
+          531,
+          1338
+        ]
+      ],
+      "is_best": false
     }
   },
-  "best_model": "Random Forest",
-  "best_roc_auc": 0.9241,
+  "best_model": "XGBoost",
+  "best_roc_auc": 0.9297,
   "n_samples": 6589,
   "n_features": 30,
   "cv_folds": 5
